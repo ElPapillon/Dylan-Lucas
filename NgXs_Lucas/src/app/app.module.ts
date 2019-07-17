@@ -4,10 +4,12 @@ import {NgxsModule} from '@ngxs/store';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ZooComponent } from './zoo/zoo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ZooComponent
   ],
   imports: [
     BrowserModule,
